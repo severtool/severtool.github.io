@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/imgs/ncdbeat.gif">
+    <!-- Title -->
+    <title>🌴 • Nguyễn Lê Trí Lộc</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Javascript -->
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="header_logo">
+                <img src="assets/imgs/ncdbeat89.gif" alt="" srcset="">
+            </div>
+            <div class="header_links">
+                <ul class="nav_links">
+                    <li class="nav_link"><a href="#">Home</a></li>
+                    <!-- <li class="nav_link"><a href="#">Shop</a></li> -->
+                    <!-- <li class="nav_link"><a href="#">Repos</a></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <img src="assets/imgs/ncdbeat.gif" alt="" srcset="">
+        <span>Vodka Coder</span>
+        <p>Hello friends! </p>
+        <p>My name is Nguyen Le Tri Loc</p>
+        <p>A Developer and Wed Desiner</p>
+        <p>I'm Passionate About Designing Wedsites</p>
+        <p>And Being A Content Creator At Youtube</p>
+        <p>18 years old, VietNam & English developer.</p>
+        <ul>
+            <li><a target="_blank"
+                    href="https://www.facebook.com/Nguyen.Le.Tri.Loc.INFO"><i class="fab fa-discord"></i></a></li>
+            <li><a target="_blank"
+                    href="https://www.youtube.com/@devlonenkhongaicongnhan"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
+<script type="text/javascript">
+    function hide_float_left() {
+    var content = document.getElementById('float_content_left');
+    var hide = document.getElementById('hide_float_left');
+</script>
+<style>
+    .float-ck {
+        position: fixed;
+        bottom: 0px;
+        z-index: 9000
+    }
+
+    * html .float-ck {
+        position: absolute;
+        bottom: auto;
+        top: expression(eval (document.documentElement.scrollTop+document.docum entElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));
+    }
+
+    #float_content_left {
+        border: 1px solid #01AEF0;
+    }
+
+    #hide_float_left {
+        text-align: left;
+        font-size: 11px;
+    }
+
+    #hide_float_left a {
+        background: #01AEF0;
+        padding: 2px 4px;
+        color: #FFF;
+    }
+</style>
+<div class="float-ck" style="left: 0px">
+    <div id="hide_float_left">
+        <div id="float_content_left">
+        </div>
+        <script type="text/javascript">
+            function hide_float_right() {
+    var content = document.getElementById('float_content_right');
+    var hide = document.getElementById('hide_float_right');
+        </script>
+        <style>
+            .float-ck {
+                position: fixed;
+                bottom: 0px;
+                z-index: 9000
+            }
+
+            * html .float-ck {
+                position: absolute;
+                bottom: auto;
+                top: expression(eval (document.documentElement.scrollTop+document.docum entElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));
+            }
+
+            #float_content_right {
+                border: 1px solid #01AEF0;
+            }
+
+            #hide_float_right {
+                text-align: right;
+                font-size: 11px;
+            }
+
+            #hide_float_right a {
+                background: #01AEF0;
+                padding: 2px 4px;
+                color: #FFF;
+            }
+        </style>
+        <div class="float-ck" style="right: 0px">
+            <div id="hide_float_right">
+                <div id="float_content_right">
+                </div>
+                <script type="text/javascript">
+                    function Set_Cookie(name, value, expires, path, domain, secure) {
+var today = new Date();
+today.setTime(today.getTime());
+var expires_date = new Date(today.getTime() + (expires));
+
+document.cookie = name + "=" + escape(value) +
+((expires) ? ";expires=" + expires_date.toGMTString() : "") +
+((path) ? ";path=" + path : "") +
+((domain) ? ";domain=" + domain : "") +
+((secure) ? ";secure" : "");
+}
+
+function Get_Cookie(name) {
+
+var start = document.cookie.indexOf(name + "=");
+var len = start + name.length + 1;
+if ((!start) &&
+(name != document.cookie.substring(0, name.length))) {
+return null;
+}
+if (start == -1) return null;
+var end = document.cookie.indexOf(";", len);
+if (end == -1) end = document.cookie.length;
+return unescape(document.cookie.substring(len, end));
+}
+
+function Delete_Cookie(name, path, domain) {
+if (Get_Cookie(name)) document.cookie = name + "=" +
+((path) ? ";path=" + path : "") +
+((domain) ? ";domain=" + domain : "") +
+";expires=Mon, 11-November-1989 00:00:01 GMT";
+}
+
+function popunder() {
+
+if (Get_Cookie('cucre') == null) {
+Set_Cookie('cucre', 'cucre Popunder', '1', '/', '', '');
+var url = "https://verminteam.link/";
+pop = window.open(url, 'windowcucre');
+pop.blur();
+
+window.focus();
+}
+
+}
+
+function addEvent(obj, eventName, func) {
+if (obj.attachEvent) {
+obj.attachEvent("on" + eventName, func);
+}
+else if (obj.addEventListener) {
+obj.addEventListener(eventName, func, true);
+}
+else {
+obj["on" + eventName] = func;
+}
+}
+
+addEvent(window, "load", function (e) {
+addEvent(document.body, "click", function (e) {
+popunder();
+});
+});
+                </script>
+
+                <link href='https://cdn.leanhduc.pro.vn/utilities/block-adblock/style.css' rel='stylesheet' />
+                <script type='text/javascript'>
+                    //<![CDATA[
+// Say Hi to Adblock
+function downloadJSAtOnload(){var e=document.createElement("script");e.src="https://cdn.leanhduc.pro.vn/utilities/block-adblock/main.js",document.body.appendChild(e)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload;
+//]]>
+</script
+ 
+<script type='text/javascript'>
+	//<![CDATA[
+		!function(e,t,a){function n(){c(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),o(),r()}function r(){for(var e=0;e<d.length;e++)d[e].alpha<=0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y--,d[e].scale+=.004,d[e].alpha-=.013,d[e].el.style.cssText="left:"+d[e].x+"px;top:"+d[e].y+"px;opacity:"+d[e].alpha+";transform:scale("+d[e].scale+","+d[e].scale+") rotate(45deg);background:"+d[e].color+";z-index:99999");requestAnimationFrame(r)}function o(){var t="function"==typeof e.onclick&&e.onclick;e.onclick=function(e){t&&t(),i(e)}}function i(e){var a=t.createElement("div");a.className="heart",d.push({el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()}),t.body.appendChild(a)}function c(e){var a=t.createElement("style");a.type="text/css";try{a.appendChild(t.createTextNode(e))}catch(t){a.styleSheet.cssText=e}t.getElementsByTagName("head")[0].appendChild(a)}function s(){return"rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"}var d=[];e.requestAnimationFrame=function(){return e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||function(e){setTimeout(e,1e3/60)}}(),n()}(window,document);
+	/]]>
+                </script>
+                <div style="text-shadow: 0px 0px 5px green;">
+                    <span style="color: white;">
+<b> Creator : </b>
+<marquee scrollamount="20" direction="left" width="90%">+++|-| Fixed Code By NLTL |-| Fixed Code By NLTL |-| Fixed Code By NLTL |-| Fixed Code By NLTL |-|+++
+</marquee></span>
+                </div>
+
+                <script type="text/javascript">
+                    new TypingText(document.getElementById("message"), 150, function(i){ var ar = new Array("_", " ", "_", " "); return " " + 
+ar[i.length % ar.length]; });
+TypingText.runAll();
+                </script>
+                </p>
+                </body>
+
+                </html>
+                <style>
+                    html,
+                    body {
+                        cursor: url("https://1.bp.blogspot.com/-qbWo9mPKO2Y/YL9utYdQBdI/AAAAAAAAFs4/mtjGu6u2uGwtJsT4gZG4lbhLV1a5lG6OQCLcBGAsYHQ/s0/mouse-f1.png"), auto;
+                    }
+
+                    a:hover {
+                        cursor: url("https://1.bp.blogspot.com/-nYv2dLl3oXY/YL9utYBCh8I/AAAAAAAAFtA/wII4lVw5w4k-4isGMY41heTqk8U4TJujgCLcBGAsYHQ/s0/mouse-f2.png"), auto;
+                    }
+                </style>
+
+                <div class='contentz'>
+                    <canvas class='star'></canvas>
+                </div>
+                <link href="https://cdn.leanhduc.pro.vn/utilities/multi-color-star-effects/style.css"
+                    rel="stylesheet" />
+                <script src="https://cdn.leanhduc.pro.vn/jquery/3.6.0.min.js"></script>
+                <script src="https://cdn.leanhduc.pro.vn/utilities/multi-color-star-effects/main.js"></script>
+                <script type='text/javascript'>
+                    //<![CDATA[
+		!function(e,t,a){function n(){c(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),o(),r()}function r(){for(var e=0;e<d.length;e++)d[e].alpha<=0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y--,d[e].scale+=.004,d[e].alpha-=.013,d[e].el.style.cssText="left:"+d[e].x+"px;top:"+d[e].y+"px;opacity:"+d[e].alpha+";transform:scale("+d[e].scale+","+d[e].scale+") rotate(45deg);background:"+d[e].color+";z-index:99999");requestAnimationFrame(r)}function o(){var t="function"==typeof e.onclick&&e.onclick;e.onclick=function(e){t&&t(),i(e)}}function i(e){var a=t.createElement("div");a.className="heart",d.push({el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()}),t.body.appendChild(a)}function c(e){var a=t.createElement("style");a.type="text/css";try{a.appendChild(t.createTextNode(e))}catch(t){a.styleSheet.cssText=e}t.getElementsByTagName("head")[0].appendChild(a)}function s(){return"rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"}var d=[];e.requestAnimationFrame=function(){return e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||function(e){setTimeout(e,1e3/60)}}(),n()}(window,document);
+	/]]>
+                </script>
+
+
+                <iframe src="https://www.nhaccuatui.com/mh/background/05rOhDrcwBFv" width="1" height="1" frameborder="0"
+                    allowfullscreen allow="autoplay"></iframe> [ Auto Play Music ]
